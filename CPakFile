@@ -1,0 +1,12 @@
+project:
+    name: Sample
+    gpid: SoraKatadzuma
+    semv: 1.0.0
+
+targets:
+- name: hello
+  type: executable
+  options: >
+    -std=c++17 -O2 -Wall -Wextra -Wpedantic -Werror
+  sources:
+  - source/main.cpp
